@@ -68,7 +68,7 @@ void echo_quote(int c)
 	{
 		putchar(d);
 		
-		if(d = '\\')
+		if(d == '\\')
 			putchar(getchar());
 	}
 	putchar(d);
